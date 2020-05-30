@@ -1,0 +1,5 @@
+number_of_cases = int(input())
+for x in range(number_of_cases):
+    numbers = input()
+    list_of_numbers = list(numbers.split())
+    print(int(list_of_numbers[0]) * int(list_of_numbers[1]))
